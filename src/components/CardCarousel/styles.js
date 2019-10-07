@@ -1,4 +1,7 @@
+import _Carousel from 'react-native-snap-carousel';
 import styled from 'styled-components/native'
+
+export const Carousel = styled(_Carousel)``
 
 export const ItemContainer = styled.View`
   border-radius: 24;

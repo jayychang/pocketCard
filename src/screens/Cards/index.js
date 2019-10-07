@@ -1,9 +1,6 @@
 import React from 'react'
 
-import CardCarousel from 'src/components/CardCarousel'
-import CardsCtaButton from 'src/components/CtaButtons/CardsCtaButton'
-
-import { Container } from './styles'
+import { CardCarousel, CardsCtaButton, Container } from './styles'
 
 const CardsScreen = () => (
   <Container>

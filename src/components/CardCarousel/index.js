@@ -1,8 +1,7 @@
 import React, { useCallback } from 'react'
 import { Dimensions } from 'react-native'
-import Carousel from 'react-native-snap-carousel';
 
-import { ItemContainer, ItemHeaderText } from './styles'
+import { Carousel, ItemContainer, ItemHeaderText } from './styles'
 
 import { useCardsSelector } from 'src/redux/hooks/selectors/cards'
 
