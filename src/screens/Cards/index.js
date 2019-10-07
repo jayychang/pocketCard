@@ -1,5 +1,3 @@
-// @flow
-
 import React from 'react'
 
 import CardCarousel from 'src/components/CardCarousel'

@@ -1,6 +1,12 @@
 // @flow
 
-const DEFAULT = [
+type StateType = {
+  +name: string,
+  +value: number,
+  +color: string,
+};
+
+const DEFAULT: StateType[] = [
   {
     name: 'barcode1',
     value: 12131313131,
@@ -33,6 +39,8 @@ const DEFAULT = [
   },
 ]
 
-export default (state = DEFAULT, action) => {
+
+
+export default (state = DEFAULT, action): StateType[] => {
   return state
 }

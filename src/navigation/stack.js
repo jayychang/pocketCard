@@ -1,5 +1,3 @@
-// @flow
-
 import { createStackNavigator } from 'react-navigation-stack';
 
 import CardsScreen from 'src/screens/Cards'

@@ -1,5 +1,3 @@
-// @flow
-
 import React from 'react';
 import { Provider as StoreProvider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
