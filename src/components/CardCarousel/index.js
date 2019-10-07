@@ -11,7 +11,7 @@ const CardCarousel = ({ style }) => {
   const cards = useCardsSelector()
 
   const renderItem = useCallback(({item, index}) => (
-    <ItemContainer color={ item.color}>
+    <ItemContainer colour={ item.colour}>
       <ItemHeaderText>{item.name}</ItemHeaderText>
     </ItemContainer>
   ), [])

@@ -5,7 +5,7 @@ export const Carousel = styled(_Carousel)``
 
 export const ItemContainer = styled.View`
   border-radius: 24;
-  background-color: ${({ color }) => color};
+  background-color: ${({ colour }) => colour};
   aspect-ratio: 0.5625;
   padding-vertical: 24;
   padding-horizontal: 24;
