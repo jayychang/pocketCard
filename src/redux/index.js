@@ -9,6 +9,7 @@ import storeReducer from 'src/redux/reducers'
 const persistConfig = {
   key: 'root',
   storage: AsyncStorage,
+  whitelist: [], // FOR TESTING
 }
 
 const persistedReducer = persistReducer(persistConfig, storeReducer)

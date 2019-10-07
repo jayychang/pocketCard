@@ -2,10 +2,14 @@
 
 import React from 'react'
 
-import { Test } from './styles'
+import CardCarousel from 'src/components/CardCarousel'
+
+import { Container } from './styles'
 
 const CardsScreen = () => (
-  <Test />
+  <Container>
+    <CardCarousel />
+  </Container>
 )
 
 export default CardsScreen
