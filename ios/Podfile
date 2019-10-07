@@ -36,6 +36,8 @@ target 'pocketCard' do
 
   pod 'react-native-camera', :path => '../node_modules/react-native-camera'
 
+  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+
   target 'pocketCardTests' do
     inherit! :search_paths
     # Pods for testing
