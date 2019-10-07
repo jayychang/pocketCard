@@ -3,7 +3,9 @@ import React, { useState } from 'react'
 import CtaButton from 'src/controls/navigation/CtaButton'
 import Alert, { RowButton } from 'src/controls/modals/Alert'
 
-const CardsCtaButton = () => {
+import { push, Routes } from 'src/helpers/navigation'
+
+const CardsCtaButton = ({ isFocus }) => {
   const [isOpenState, setIsOpenState] = useState(false)
 
   return (
@@ -13,7 +15,7 @@ const CardsCtaButton = () => {
         isOpen={ isOpenState }
         onDismiss={ () => { setIsOpenState(false) } }
       >
-        <RowButton title="Add new card" onPress={ () => {} } />
+        <RowButton title="Add new card" onPress={ () => { push(Routes.ADD_CARD); setIsOpenState(false) } } />
       </Alert>
     </>
   )
